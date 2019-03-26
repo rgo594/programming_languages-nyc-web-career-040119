@@ -25,9 +25,9 @@ def reformat_languages(languages)
     :style => [:functional]
   },
   :scala => {
+    binding.pry
     :type => "compiled",
     :style => [:functional]
-    binding.pry
   }
 }
 end
